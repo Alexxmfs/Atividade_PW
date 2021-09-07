@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+.container{
+    margin: auto;
+    width: 960px;
+    padding: 10px;
+}
+
+.titulo{
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid;
+}
+
+.bloco{
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 10px;
+    border-top:2px solid black;
+}
+
+html{
+    background: url(../img/IA01.jpeg);
+    background-size: cover;
+}
+
+.bloco img{
+    border: 1px solid #fff;
+    float: left;
+    margin: 10px, 10px, 0, 0,;
+    padding: 2px;
+}
+
+.clear{
+    clear: both;
+}
+
+.bloco a{
+    color: #00c3ff    ;
+}
+
+.bloco a:hover{
+    color: #00c3ff    ;
+    text-decoration: underline;
+    background-color: black;
+    padding: 2px;
+}
+
